@@ -1,0 +1,7 @@
+INFO - 2026-04-26 08:00:01 - Application started
+WARNING - 2026-04-26 08:01:15 - Slow response from payment API
+ERROR - 2026-04-26 08:02:30 - Failed to connect to database
+INFO - 2026-04-26 08:03:00 - User login successful
+ERROR - 2026-04-26 08:04:12 - Missing required field: customer_id
+ERROR - 2026-04-26 08:05:44 - File not found: orders.csv
+INFO - 2026-04-26 08:06:10 - Job completed
