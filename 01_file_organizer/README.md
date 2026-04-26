@@ -53,6 +53,21 @@ sample_files/
 - Music/song.mp3
 - Others/random_file.xyz
 
+![File Organizer Output](screenshots/01_file_organizer_result.png)
+
+## Alternative Implementation (os module)
+
+This project also includes an implementation using Python’s built-in `os` and `shutil` modules.
+
+Why this matters:
+- Demonstrates low-level file system control
+- Common in legacy scripts and automation jobs
+- Useful for ETL-style file movement tasks
+
+Two approaches included:
+1. Modern approach (cleaner, easier to read)
+2. OS-based approach (more control, more verbose)
+
 ## Key Takeaway
 
 Python automation is useful for repetitive file management tasks because it can apply consistent rules quickly and reduce manual effort.
