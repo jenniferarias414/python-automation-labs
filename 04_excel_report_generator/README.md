@@ -30,6 +30,14 @@ In data engineering and analytics workflows, automating Excel tasks helps:
 - Basic formatting (bold text, headers)  
 - Automating report generation  
 
+## Key Functions Used
+
+- `load_workbook()` → Opens an existing Excel file  
+- `Workbook()` → Creates a new Excel file  
+- `ws.cell()` → Accesses specific cells  
+- `ws.append()` → Adds rows to a sheet  
+- `Font()` → Applies formatting (bold text)  
+
 ---
 
 ## Input Data
@@ -47,6 +55,18 @@ In data engineering and analytics workflows, automating Excel tasks helps:
 5. Write totals into the report  
 6. Apply simple formatting  
 7. Save the updated workbook  
+
+---
+
+## How the Code Works (Walkthrough)
+
+- `load_workbook()` loads the Excel file into memory  
+- The script loops through columns to calculate totals  
+- It checks values using `isinstance()` to avoid errors  
+- A new worksheet is created for the report  
+- Totals are written into the report sheet  
+- Basic formatting is applied (bold headers, spacing)  
+- The workbook is saved as a new output file  
 
 ---
 
@@ -103,3 +123,9 @@ In real-world scenarios, similar workflows are used when:
 - Automating recurring reporting tasks  
 
 This bridges the gap between raw data processing and business-facing outputs.
+
+---
+
+## Environment Note
+
+This project uses a Python virtual environment (`.venv`) to manage dependencies like `openpyxl` without affecting the system Python installation.
