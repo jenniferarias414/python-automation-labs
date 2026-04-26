@@ -82,6 +82,9 @@ Extracted ERROR messages:
 2026-04-26 08:02:30: Failed to connect to database
 2026-04-26 08:04:12: Missing required field: customer_id
 2026-04-26 08:05:44: File not found: orders.csv
+```
+
+### Screenshot
 
 ![Regex Log Parser Result](screenshots/01_regex_log_parser_result.png)
 
@@ -89,4 +92,9 @@ Extracted ERROR messages:
 
 Regex is useful when text has a predictable pattern but is not already structured as rows and columns.
 
-In data engineering, this can be used for parsing logs, extracting IDs, validating file names, checking timestamps, and identifying failed pipeline events.
+In data engineering, this can be used for:
+- Parsing logs
+- Extracting IDs
+- Validating file names
+- Checking timestamps
+- Identifying failed pipeline events
