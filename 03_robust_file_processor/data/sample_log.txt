@@ -1,0 +1,5 @@
+2026-04-26 INFO File received from source system.
+2026-04-26 INFO Starting data validation.
+2026-04-26 WARNING Missing optional field: customer_middle_name.
+2026-04-26 ERROR Failed to cast column order_amount to decimal.
+2026-04-26 INFO Processing completed with warnings.

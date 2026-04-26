@@ -1,0 +1,13 @@
+Robust File Processor Summary
+=============================
+
+File: sample_log.txt
+Lines: 5
+Words: 33
+Status: processed
+
+File: empty_file.txt
+Lines: 0
+Words: 0
+Status: processed
+
