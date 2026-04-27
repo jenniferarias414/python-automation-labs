@@ -2,29 +2,102 @@
 
 ## Overview
 
-This repository contains mini-projects from my Python Automation learning section. Each folder focuses on a specific automation concept and includes working code, sample data, and notes explaining the use case.
+This repository contains mini-projects built while learning Python automation fundamentals.
+
+Each folder focuses on a practical automation concept using small, hands-on projects that simulate real-world tasks such as file handling, data transformation, reporting, and workflow reliability.
+
+The goal is to build clean, professional projects that reinforce Python skills while connecting them to data engineering and analytics use cases.
+
+---
 
 ## Current Labs
 
 ### 01 File Organizer
 
-Automates file and folder organization by scanning a directory, identifying file extensions, and moving files into categorized folders.
+Automates file organization by scanning a directory, identifying file extensions, and moving files into categorized folders.
 
-Concepts demonstrated:
-
-- File system navigation
+**Concepts:**
 - `pathlib`
 - `shutil`
-- File extensions
-- Folder creation
-- Basic automation workflow
+- File system automation
+
+---
+
+### 02 Regex Log Parser
+
+Reads log files and uses regular expressions to extract timestamps and error messages.
+
+**Concepts:**
+- `re`
+- Pattern matching
+- Text parsing
+- Log analysis
+
+---
+
+### 03 Robust File Processor
+
+Processes files safely using logging, assertions, and exception handling.
+
+**Concepts:**
+- `try` / `except`
+- `logging`
+- Assertions
+- Defensive programming
+
+---
+
+### 04 Excel Monthly Report Generator
+
+Reads Excel data, calculates totals, and generates a formatted report using Python.
+
+**Concepts:**
+- `openpyxl`
+- Spreadsheet automation
+- Reporting workflows
+
+---
+
+### 05 CSV to JSON Transformer
+
+Converts structured CSV data into JSON format for downstream systems and APIs.
+
+**Concepts:**
+- `csv`
+- `json`
+- Data transformation
+- File format conversion
+
+---
 
 ## Technologies Used
 
 - Python
 - pathlib
 - shutil
+- re
+- logging
+- openpyxl
+- csv
+- json
 
-## Purpose
+---
 
-The goal of this repository is to practice practical Python automation patterns that are useful in data engineering, analytics, and general workflow automation.
+## Why This Repository Exists
+
+This repository was created to practice practical Python automation patterns commonly used in:
+
+- Data engineering
+- ETL workflows
+- Reporting automation
+- File processing
+- Data transformation
+- General business automation
+
+Each project is intentionally small, focused, and designed to be easy to revisit for review or interview preparation.
+
+---
+
+## Future Labs
+
+Additional automation projects will be added as new concepts are learned.
