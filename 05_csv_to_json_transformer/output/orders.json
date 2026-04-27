@@ -1,0 +1,37 @@
+[
+    {
+        "order_id": "1001",
+        "customer_name": "Ava Johnson",
+        "order_date": "2026-04-01",
+        "order_amount": "125.50",
+        "status": "completed"
+    },
+    {
+        "order_id": "1002",
+        "customer_name": "Liam Smith",
+        "order_date": "2026-04-02",
+        "order_amount": "89.99",
+        "status": "completed"
+    },
+    {
+        "order_id": "1003",
+        "customer_name": "Mia Garcia",
+        "order_date": "2026-04-03",
+        "order_amount": "",
+        "status": "pending"
+    },
+    {
+        "order_id": "1004",
+        "customer_name": "Noah Brown",
+        "order_date": "2026-04-04",
+        "order_amount": "215.75",
+        "status": "completed"
+    },
+    {
+        "order_id": "1005",
+        "customer_name": "Sophia Davis",
+        "order_date": "2026-04-05",
+        "order_amount": "0",
+        "status": "cancelled"
+    }
+]

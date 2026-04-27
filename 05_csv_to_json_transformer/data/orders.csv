@@ -1,0 +1,6 @@
+order_id,customer_name,order_date,order_amount,status
+1001,Ava Johnson,2026-04-01,125.50,completed
+1002,Liam Smith,2026-04-02,89.99,completed
+1003,Mia Garcia,2026-04-03,,pending
+1004,Noah Brown,2026-04-04,215.75,completed
+1005,Sophia Davis,2026-04-05,0,cancelled
