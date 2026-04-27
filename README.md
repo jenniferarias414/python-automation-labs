@@ -4,7 +4,7 @@
 
 This repository contains mini-projects built while learning Python automation fundamentals.
 
-Each folder focuses on a practical automation concept using small, hands-on projects that simulate real-world tasks such as file handling, data transformation, reporting, scheduling, and workflow reliability.
+Each folder focuses on a practical automation concept using small, hands-on projects that simulate real-world tasks such as file handling, data transformation, reporting, scheduling, notifications, and workflow reliability.
 
 The goal is to build clean, professional projects that reinforce Python skills while connecting them to data engineering and analytics use cases.
 
@@ -84,6 +84,22 @@ Creates recurring timestamped backup copies of an important file using a schedul
 
 ---
 
+### 07 Flight Status Email Automation
+
+Reads flight operations data, identifies delayed or cancelled flights, and generates an automated email alert using Gmail SMTP.
+
+**Concepts:**
+- `smtplib`
+- `imaplib`
+- `EmailMessage`
+- `.env` configuration
+- SMTP email delivery
+- IMAP retrieval
+- Alert automation
+- Secure credential handling
+
+---
+
 ## Technologies Used
 
 - Python
@@ -97,6 +113,8 @@ Creates recurring timestamped backup copies of an important file using a schedul
 - schedule
 - datetime
 - time
+- smtplib
+- imaplib
 
 ---
 
@@ -111,6 +129,8 @@ This repository was created to practice practical Python automation patterns com
 - Data transformation
 - Scheduled jobs
 - Operational automation
+- Notification systems
+- Secure credential workflows
 - General business automation
 
 Each project is intentionally small, focused, and designed to be easy to revisit for review or interview preparation.
@@ -119,4 +139,4 @@ Each project is intentionally small, focused, and designed to be easy to revisit
 
 ## Future Labs
 
-Additional automation projects will be added as new concepts are learned, including threading, APIs, web scraping, database automation, and more advanced workflow orchestration.
+Additional automation projects will be added as new concepts are learned, including threading, APIs, web scraping, database automation, cloud integrations, and more advanced workflow orchestration.
