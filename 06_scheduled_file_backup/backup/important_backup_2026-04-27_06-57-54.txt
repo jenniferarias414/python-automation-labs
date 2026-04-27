@@ -1,0 +1,11 @@
+Important Project Notes
+=======================
+
+This file represents a source file that needs to be backed up automatically.
+
+In real workflows, this could be:
+- a report
+- a configuration file
+- a data extract
+- a log file
+- a business-critical document
