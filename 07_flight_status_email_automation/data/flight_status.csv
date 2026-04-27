@@ -1,0 +1,6 @@
+flight_number,origin,destination,scheduled_departure,status,delay_minutes,gate
+WN101,DAL,HOU,08:15,On Time,0,12
+WN205,DAL,DEN,09:30,Delayed,45,8
+WN317,DAL,LAS,10:10,Cancelled,0,5
+WN422,DAL,PHX,11:45,Delayed,20,14
+WN530,DAL,AUS,12:05,On Time,0,3
