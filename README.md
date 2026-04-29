@@ -155,8 +155,6 @@ This repository was created to practice practical Python automation patterns com
 - SQL debugging
 - General business automation
 
-Each project is intentionally small, focused, and designed to be easy to revisit for review or interview preparation.
-
 ---
 
 ## Future Labs
