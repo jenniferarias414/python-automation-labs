@@ -1,0 +1,14 @@
+Bookstore Web Data Pipeline Summary
+===================================
+
+Books extracted: 20
+Average price: £38.05
+Highest price: £57.25
+Lowest price: £13.99
+
+Rating counts:
+- One: 6
+- Four: 4
+- Five: 4
+- Three: 3
+- Two: 3
