@@ -1,0 +1,17 @@
+output_column,source_table,source_column,transformation_type,sql_expression
+claim_id,baggage_claims,claim_id,DIRECT,c.claim_id
+claim_status,baggage_claims,claim_status,DIRECT,c.claim_status
+claim_created_date,baggage_claims,claim_created_date,DIRECT,c.claim_created_date
+bag_tag_number,baggage,bag_tag_number,DIRECT,b.bag_tag_number
+origin_airport,baggage,origin_airport,DIRECT,b.origin_airport
+destination_airport,baggage,destination_airport,DIRECT,b.destination_airport
+last_scan_airport,bag_scan_events,last_scan_airport,DIRECT,s.last_scan_airport
+last_scan_time,bag_scan_events,last_scan_time,DIRECT,s.last_scan_time
+customer_name,customers,customer_name,DIRECT,cust.customer_name
+loyalty_tier,customers,loyalty_tier,DIRECT,cust.loyalty_tier
+compensation_amount,baggage_claims,compensation_amount,DIRECT,c.compensation_amount
+claim_priority,baggage_claims,compensation_amount,TRANSFORMED,"CASE
+  WHEN c.compensation_amount > 100
+  THEN 'High Priority'
+  ELSE 'Standard Priority'
+END AS claim_priority"
