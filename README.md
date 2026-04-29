@@ -116,6 +116,22 @@ Parses airline baggage-claims SQL queries and maps output columns back to their 
 
 ---
 
+### 09 Bookstore Web Data Pipeline
+
+Uses Python to scrape book data from a practice website, parse HTML with XPath, and export structured CSV and summary reports.
+
+**Concepts:**
+- `requests`
+- `lxml`
+- XPath
+- HTML parsing
+- pandas
+- Web scraping
+- Data ingestion
+- CSV reporting
+
+---
+
 ## Technologies Used
 
 - Python
@@ -134,6 +150,8 @@ Parses airline baggage-claims SQL queries and maps output columns back to their 
 - streamlit
 - sqlglot
 - pandas
+- requests
+- lxml
 
 ---
 
@@ -154,9 +172,12 @@ This repository was created to practice practical Python automation patterns com
 - Metadata analysis
 - SQL debugging
 - General business automation
+- Web data ingestion
+- HTML parsing
+- Semi-structured data extraction
 
 ---
 
 ## Future Labs
 
-Additional automation projects will be added as new concepts are learned, including threading, APIs, web scraping, database automation, cloud integrations, dashboarding, and more advanced workflow orchestration.
+Additional automation projects will be added as new concepts are learned, including threading, APIs, database automation, cloud integrations, dashboarding, and more advanced workflow orchestration.
