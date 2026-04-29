@@ -4,9 +4,9 @@
 
 This repository contains mini-projects built while learning Python automation fundamentals.
 
-Each folder focuses on a practical automation concept using small, hands-on projects that simulate real-world tasks such as file handling, data transformation, reporting, scheduling, notifications, and workflow reliability.
+Each folder focuses on a practical automation concept using small, hands-on projects that simulate real-world tasks such as file handling, data transformation, reporting, scheduling, notifications, SQL analysis, and workflow reliability.
 
-The goal is to build clean, professional projects that reinforce Python skills while connecting them to data engineering and analytics use cases.
+The goal is to build clean, professional projects that reinforce Python skills while connecting them to data engineering, analytics engineering, and business use cases.
 
 ---
 
@@ -100,6 +100,22 @@ Reads flight operations data, identifies delayed or cancelled flights, and gener
 
 ---
 
+### 08 Baggage Claim SQL Lineage Tool
+
+Parses airline baggage-claims SQL queries and maps output columns back to their source tables and source columns using a Streamlit app.
+
+**Concepts:**
+- `streamlit`
+- `sqlglot`
+- `pandas`
+- SQL parsing
+- Column lineage
+- Table aliases
+- Metadata analysis
+- CSV export
+
+---
+
 ## Technologies Used
 
 - Python
@@ -115,6 +131,9 @@ Reads flight operations data, identifies delayed or cancelled flights, and gener
 - time
 - smtplib
 - imaplib
+- streamlit
+- sqlglot
+- pandas
 
 ---
 
@@ -123,6 +142,7 @@ Reads flight operations data, identifies delayed or cancelled flights, and gener
 This repository was created to practice practical Python automation patterns commonly used in:
 
 - Data engineering
+- Analytics engineering
 - ETL workflows
 - Reporting automation
 - File processing
@@ -131,6 +151,8 @@ This repository was created to practice practical Python automation patterns com
 - Operational automation
 - Notification systems
 - Secure credential workflows
+- Metadata analysis
+- SQL debugging
 - General business automation
 
 Each project is intentionally small, focused, and designed to be easy to revisit for review or interview preparation.
@@ -139,4 +161,4 @@ Each project is intentionally small, focused, and designed to be easy to revisit
 
 ## Future Labs
 
-Additional automation projects will be added as new concepts are learned, including threading, APIs, web scraping, database automation, cloud integrations, and more advanced workflow orchestration.
+Additional automation projects will be added as new concepts are learned, including threading, APIs, web scraping, database automation, cloud integrations, dashboarding, and more advanced workflow orchestration.
